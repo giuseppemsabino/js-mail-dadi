@@ -4,6 +4,14 @@
 // controlla che sia nella lista di chi può accedere,
 // stampa un messaggio appropriato sull'esito del controllo.
 
+const emails = ['giuseppe@gmail.com', 'ama@gmail.com', 'sira@gmail.com']
+
+const inputEmail = prompt('inserisci il tuo email');
+
+const isInputNameValid = inputEmail.includes(inputEmail);
+
+isInputNameValid ? alert('la mail inserita e valida') : alert('la mail inserita non e valida')
+
 //* Gioco dei dadi
 // Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
