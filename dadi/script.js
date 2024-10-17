@@ -24,16 +24,24 @@ const startGame = prompt('inserisci "start" se vuoi comimciare');
 
 if(startGame.includes('start')){
 
-//*dopo con un if o un operatore terziario verificare quale dei due numeri sia maggiore e assegno una vincitore
+    let userNumber = 0;
+    let pcNumber = 0;
+
  for(let i = 0; i < 1; i++){
-  const diceNumber =  Math.floor(Math.random(1)*7)
-
-  const user1= diceNumber
-  const computer= diceNumber
-  console.log(user1);
-  console.log(computer);
-
+  
+    userNumber =  Math.floor(Math.random(1) * 6)  + 1;
+    pcNumber = Math.floor(Math.random(1) * 6) + 1;
+    console.log(' il tuo numero è : '+ userNumber, '\n il numero della macchina è : ' + pcNumber);
  }
+//*dopo con un if o un operatore terziario verificare quale dei due numeri sia maggiore e assegno una vincitore
+
+if(userNumber === pcNumber){
+    alert('è un pareggio')
+}
+
+
+
+ 
 
 
 
