@@ -15,3 +15,21 @@
 // 3. si ma noi cosa vogliamo fare?
 // 4. torniamo a scrivere in italiano
 // 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+//* prima chiedo se si vuole inizializzare il programma con un pront
+
+const startGame = prompt('inserisci "start" se vuoi comimciare');
+
+//* se l'input e "start" faccio girare un for su un metodo random 2 volte per avere i due numeri(una per il giocatore uno per la macchina)
+
+if(startGame.includes('start')){
+
+//*dopo con un if o un operatore terziario verificare quale dei due numeri sia maggiore e assegno una vincitore
+
+
+
+
+
+
+
+}
